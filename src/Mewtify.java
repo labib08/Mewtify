@@ -189,7 +189,6 @@ public class Mewtify extends AbstractGame {
                     currSong++;
                 }
                 flagSong = true;
-                System.out.println("Forward");
             }
 
             else if (input.wasPressed(MouseButtons.LEFT) && NEXT_BUTTON.getBoundingBoxAt(PREV_BUTTON_POINT).intersects(input.getMousePosition())) {
@@ -203,7 +202,6 @@ public class Mewtify extends AbstractGame {
                     currSong--;
                 }
                 flagSong = true;
-                System.out.println("Back");
             }
 
             if (isPlay){
